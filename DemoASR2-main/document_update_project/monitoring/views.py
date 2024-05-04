@@ -23,6 +23,7 @@ def server_list(request):
             "name": link,
             "status": status
         })
+        
 
     return render(request, 'monitoring/server_list.html', {'servers': servers})
 
